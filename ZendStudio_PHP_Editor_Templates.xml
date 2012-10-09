@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="Zend\Debug" enabled="true" name="zddb">\Zend\Debug\Debug::dump(${cursor});die();</template><template autoinsert="true" context="php" deleted="false" description="Zend\Logger" enabled="true" name="zddl">$$debugLogger = new \Zend\Log\Logger();
+$$debugLogger-&gt;addWriter(new \Zend\Log\Writer\Stream('data/debug.log'));
+$$debugLogger-&gt;debug(${cursor});</template></templates>
